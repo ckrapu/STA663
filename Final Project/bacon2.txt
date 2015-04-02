@@ -1,0 +1,11 @@
+bacon pork ham bacon celery
+celery potato yucca tomato root celery
+pork ham bacon
+ham bacon celery potato
+yucca tomato tomato tomato potato celery
+bacon ham pork
+ham ham pork pork
+
+
+
+
