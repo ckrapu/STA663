@@ -15,12 +15,11 @@ def text_munge(filename):
     text = text.translate(string.maketrans("",""), string.punctuation)
     split_text = text.split('\r\n\r')
 
-    for i,doc in enumerate(split_text):
-        d = doc.replace('\n','')
-        d = d.replace('\r',' ')
-        split_text[i]=d
-        if split_text[i] =='':
-            split_text.remove('')
+    #for i,doc in enumerate(split_text):
+    #    d = doc.replace('\n','')
+    #    d = d.replace('\r','')
+    #    split_text[i]=d
+        
     split_text = filter(None,split_text)
 
     docs=[]
